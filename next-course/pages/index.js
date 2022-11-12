@@ -2,9 +2,19 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div>
+   <>
+   <Head>
+    <title>MK | Home</title>
+    <meta name='keywords' content="nijas" />
+   </Head>
+    <div className='home'>
+    <div className='home-title'>
     <h1>hello world</h1>
-    <p>learning next</p>
     </div>
+     <div className='home-content'>
+     <p>learning next</p>
+     </div>
+    </div>
+   </>
   )
 }

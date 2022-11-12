@@ -24,3 +24,59 @@ a {
     background: black;
   }
 }
+
+.nav-bar{
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 10%;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: 3%;
+}
+
+.nav-logo{
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  margin: 3%;
+}
+
+.nav-bar h3{
+  margin: 3%;
+  font-size: 25px;
+}
+
+
+.link{
+  margin: 3%;
+}
+
+.footer{
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.home-title, .home-content{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.not-found{
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.not-found-link{
+  color: blue;
+  text-decoration: underline;
+}
